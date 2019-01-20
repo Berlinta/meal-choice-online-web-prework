@@ -1,5 +1,6 @@
-def choice(meal_choice = "meat")
-  puts "The Meal choice is #{meal_choice}!"
+def choice(meal_choice="meat")
+    puts "The Meal Choice is #{meal_choice}!"
 end
-  
-# passed into it and defaults to meat.
+
+ def meal_choice(name = "meat")
+  meal_choice = "#{name}"
