@@ -1,4 +1,4 @@
-def choice(meal choice = "meat")
+def choice(meal_choice = "meat")
   puts "The Meal choice is #{meal_choice}!"
 end
   
